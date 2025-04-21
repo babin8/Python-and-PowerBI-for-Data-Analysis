@@ -78,7 +78,7 @@ Method used: K-means clustering, elbow method
 The conversation can be found at:
 https://grok.com/share/c2hhcmQtMg%3D%3D_0bbfaadb-cebe-475a-bb29-05366c548dff
 
-    **Part 3.1: Daily Sales**
+   **Part 3.1: Daily Sales**
 
     Clustering.ipynb
 
