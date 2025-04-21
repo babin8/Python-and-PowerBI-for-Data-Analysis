@@ -63,11 +63,11 @@ https://grok.com/chat/621124b3-d6e0-44b5-ad26-29d292106c18
 
   Correlations.ipynb
 
-      Step 1: Calculate and visualize the correlations amongst the time identifiers, the weather identifiers, and then between daily sales metrics. Study the correlation matrix. Also add year as a time identifier.
+     Step 1: Calculate and visualize the correlations amongst the time identifiers, the weather identifiers, and then between daily sales metrics. Study the correlation matrix. Also add year as a time identifier.
   
-      Step 2: Eliminate potential multicollinearity headers (headers with high correlation). Save the selected headers into a new file.
+     Step 2: Eliminate potential multicollinearity headers (headers with high correlation). Save the selected headers into a new file.
 
-      Step 3: Create a basic linear regression model and a random forest regression model to predict the daily sales. Calculate the performance metrics and visualize the predicted sales vs actual sales.  
+     Step 3: Create a basic linear regression model and a random forest regression model to predict the daily sales. Calculate the performance metrics and visualize the predicted sales vs actual sales.  
 
 Result: 12 columns; 1 date, 9 features amd 2 prediction variables. Initial R2 scores close to zero.
 
@@ -78,15 +78,17 @@ Method used: K-means clustering, elbow method
 The conversation can be found at:
 https://grok.com/share/c2hhcmQtMg%3D%3D_0bbfaadb-cebe-475a-bb29-05366c548dff
 
-Clustering.ipynb
+    **Part 3.1: Daily Sales**
 
-        Step 1: Initial K-means clustering of the dataset.
+    Clustering.ipynb
+
+      Step 1: Initial K-means clustering of the dataset.
         
-        Step 2: Use Elbow method to calculate the optimal number of clusters and visualize the curve.
+      Step 2: Use Elbow method to calculate the optimal number of clusters and visualize the curve.
 
-        Step 3: Create a new header to identify the cluster for each date.
+      Step 3: Create a new header to identify the cluster for each date.
 
-        Step 4: Using the cluster as a feature with the existing feautes, predict the values for both the prediction variables using Linear Regression and Random Forest Regression. Calculate their prediction metrics.
+      Step 4: Using the cluster as a feature with the existing feautes, predict the values for both the prediction variables using Linear Regression and Random Forest Regression. Calculate their prediction metrics.
 
 Result: Linear Regression R2 score: 0.2377 and Random Forest R2 score: 0.3726 for predicting the total sales. Overall model improvement.
         
