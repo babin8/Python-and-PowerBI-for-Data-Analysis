@@ -5,6 +5,7 @@ This project uses the daily sales data from a convenince store/smoke shop and an
 **Tools Used**
 - Jupyter Notebook
 - Python (Pandas, matplotlib)
+- ChatGPT (4o, Data Analyst), Grok (3, Think), DeepSeek (DeepThink)
 
 **Method**
 
